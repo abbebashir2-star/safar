@@ -6,73 +6,35 @@
 <title>Safar — Safarka aad ku kalsoonaan karto</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="landing">
 
-<header class="topbar">
-  <div class="logo">
-    <svg width="40" height="40" viewBox="0 0 100 100">
-      <circle cx="50" cy="50" r="48" fill="#0B6E4F"/>
-      <path d="M30 70 Q50 20 70 70" stroke="#FFC107" stroke-width="8" fill="none" stroke-linecap="round"/>
-      <circle cx="50" cy="35" r="8" fill="#FFC107"/>
-    </svg>
-    <div>
-      <h1>Safar</h1>
-      <p class="tagline">Safarka aad ku kalsoonaan karto</p>
-    </div>
-  </div>
-</header>
+<div class="hero">
+  <svg width="90" height="90" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="48" fill="#0B6E4F"/>
+    <path d="M30 70 Q50 20 70 70" stroke="#FFC107" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="50" cy="35" r="8" fill="#FFC107"/>
+  </svg>
+  <h1>Safar</h1>
+  <p class="tagline">Safarka aad ku kalsoonaan karto</p>
+</div>
 
-<main>
-  <section class="card">
-    <h2>Diiwaangeli Darawal</h2>
-    <form id="regForm">
-      <label>Magaca buuxa</label>
-      <input type="text" id="name" required placeholder="Magacaaga">
+<div class="choice">
+  <a href="driver.html" class="choice-btn">
+    <span class="icon">🚐</span>
+    <span class="label">Darawal</span>
+    <span class="sub">Diiwaangeli bajo-gaaga</span>
+  </a>
 
-      <label>Lambarka EVC</label>
-      <input type="tel" id="evc" required placeholder="61xxxxxxx">
-
-      <label>Lambarka Bajo</label>
-      <input type="text" id="bajo" required placeholder="Tusaale: BAJ-1234">
-
-      <label>Sawirka Bajo</label>
-      <input type="file" id="photo" accept="image/*">
-
-      <label>Ma leedahay baabuurka?</label>
-      <select id="owns" required>
-        <option value="">Dooro...</option>
-        <option value="haa">Haa, waa anigaa leh</option>
-        <option value="maya">Maya, waa qof kale</option>
-      </select>
-
-      <div id="ownerFields" style="display:none">
-        <label>Magaca milkiilaha</label>
-        <input type="text" id="ownerName" placeholder="Magaca milkiilaha">
-        <label>EVC milkiilaha</label>
-        <input type="tel" id="ownerEvc" placeholder="61xxxxxxx">
-      </div>
-
-      <button type="submit" class="btn">Diiwaangeli</button>
-    </form>
-  </section>
-
-  <section class="card">
-    <h2>Raadi Bajo</h2>
-    <input type="text" id="search" placeholder="Geli lambarka bajo..." class="search">
-    <div id="results"></div>
-  </section>
-
-  <section class="card">
-    <h2>Darawalada Diiwaangashan</h2>
-    <div id="driverList"></div>
-  </section>
-</main>
+  <a href="rider.html" class="choice-btn">
+    <span class="icon">🧍</span>
+    <span class="label">Raxan</span>
+    <span class="sub">Raadi bajo oo raac</span>
+  </a>
+</div>
 
 <footer>
   <p>Lacagta bishii: <strong>$20</strong> → EVC <strong>613174592</strong></p>
-  <p>7 maalmood oo bilaash ah</p>
 </footer>
 
-<script src="app.js"></script>
 </body>
 </html>
