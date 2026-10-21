@@ -1,0 +1,30 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; }
+
+body { background:#f4f6f5; color:#1a1a1a; }
+
+.topbar { background:#0B6E4F; padding:16px; }
+.logo { display:flex; align-items:center; gap:12px; }
+.logo h1 { color:#fff; font-size:24px; }
+.tagline { color:#c9e5d8; font-size:12px; }
+
+main { padding:16px; max-width:600px; margin:auto; }
+
+.card { background:#fff; border-radius:14px; padding:18px; margin-bottom:16px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+.card h2 { color:#0B6E4F; font-size:18px; margin-bottom:14px; }
+
+label { display:block; font-size:14px; margin:10px 0 4px; font-weight:600; }
+input, select { width:100%; padding:12px; border:1px solid #ddd; border-radius:10px; font-size:16px; }
+
+.btn { width:100%; background:#0B6E4F; color:#fff; border:none; padding:14px; border-radius:10px; font-size:16px; font-weight:700; margin-top:16px; }
+
+.search { margin-bottom:12px; }
+
+.driver { border-bottom:1px solid #eee; padding:10px 0; display:flex; gap:12px; align-items:center; }
+.driver img { width:50px; height:50px; border-radius:10px; object-fit:cover; }
+.driver .info { flex:1; }
+.driver .name { font-weight:700; }
+.driver .meta { font-size:13px; color:#666; }
+.badge { font-size:11px; padding:3px 8px; border-radius:20px; background:#e8f5ef; color:#0B6E4F; font-weight:700; }
+
+footer { text-align:center; padding:20px; color:#666; font-size:13px; }
+footer strong { color:#0B6E4F; }
