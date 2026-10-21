@@ -28,3 +28,22 @@ input, select { width:100%; padding:12px; border:1px solid #ddd; border-radius:1
 
 footer { text-align:center; padding:20px; color:#666; font-size:13px; }
 footer strong { color:#0B6E4F; }
+.landing { background:#0B6E4F; min-height:100vh; display:flex; flex-direction:column; justify-content:center; }
+
+.hero { text-align:center; padding:40px 20px; }
+.hero h1 { color:#fff; font-size:42px; margin-top:12px; }
+.hero .tagline { color:#c9e5d8; font-size:15px; margin-top:6px; }
+
+.choice { padding:0 20px; display:flex; flex-direction:column; gap:16px; }
+
+.choice-btn {
+  background:#fff; border-radius:16px; padding:24px; text-decoration:none;
+  display:flex; flex-direction:column; align-items:center; gap:6px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+.choice-btn .icon { font-size:40px; }
+.choice-btn .label { font-size:22px; font-weight:800; color:#0B6E4F; }
+.choice-btn .sub { font-size:13px; color:#666; }
+
+.landing footer { color:#c9e5d8; }
+.landing footer strong { color:#FFC107; }
