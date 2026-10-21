@@ -47,3 +47,5 @@ footer strong { color:#0B6E4F; }
 
 .landing footer { color:#c9e5d8; }
 .landing footer strong { color:#FFC107; }
+.back { color:#fff; font-size:24px; text-decoration:none; margin-right:10px; }
+.topbar { display:flex; align-items:center; }
